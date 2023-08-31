@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name ="viewpoint" content="width=device-width,initial scale=1.0">
+    
+    <title>Image Slider Design - Easy Tutorials </title>
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> 
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Allou Passes Guide</h1>
+    </div>
+      <p><b>Allou Passes</b>
+        <br>Ατομικά ημερήσια πάσα διασκέδασης για  παιχνίδι σε  παιχνίδια του Allou!</br></p>
+    
+
+<div class="cointaner">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+        "  <div class="swiper-slide"><img src="https://www.allou.gr/files/1/passes/blue2020.png" class="pictures" alt=""></div>
+           <div class="swiper-slide"><img src="https://www.allou.gr/files/1/passes/red2020.png" class="pictures" alt=""></div>
+           <div class="swiper-slide"><img src="https://www.allou.gr/files/1/passes/black2020.png" class="pictures" alt=""></div>
+           <div class="swiper-slide"><img src="https://www.allou.gr/files/1/passes/vr_combo_pass.png" class="pictures" alt=""></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>   
+<script>
+const swiper = new Swiper('.swiper', {
+  autoplay:{
+    delay:1000,
+    disableOnInteraction:false,
+  },
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  calculateHeight: true
+
+
+
+});
+ </script>
+ <h1></h1>
+ 
+ <br></p>
+                                 
+                                 <div class="itemsWrapper">
+                                     <!--Item Repeater-->
+                                         <div class="g12Full itemBox">
+                                             <div class="g4 productDetails">
+                                                     <p>Τα Allou Fun Passes είναι τα παρακάτω:<br>
+                                                        <b><br>
+ <ul>
+     <li><span style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; line-height: 14.4px;">7 Rides Pass</span> <br><b>Τιμή(Price): 12€</b><br></li>    
+     <a href="C:\Users\Charis\Desktop\Νέος φάκελος\xxlslider1.html"><li><span style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; line-height: 14.4px;">XXL Pass</span><br><b>Τιμή(Price): 19€</b><br></li></a> 
+     <li><span style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; line-height: 14.4px;">Mega Pass</span><br><b>Τιμή(Price): 26€</b><br></li>
+     <li><span style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; line-height: 14.4px;">VR Combo Pass</span><br><b>Τιμή(Price): 15€</b><br></li>
+     
+ </ul>
+ <br>
+ <br>
+ <b></b><br>
+ </b></p>
+ 
+ <style>
+ @media screen and (max-width: 480px){
+
+.pictures{ 
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}
+.pictures{ 
+  width: 400px;
+  display:block;
+}
+.pictures{ 
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+ </style>
+
+
+
+</body>
+</html>
+<!-- <i class="fas fa-angle-double-left"></i> -->
